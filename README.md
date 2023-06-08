@@ -1,5 +1,8 @@
 # Disaster Response Pipeline Project
 
+### Introduction
+With the help of Figure Eight's data on disaster messaging, and applying what I've learned throughout the course, this project will introduce a webapp UI to classify disaster messages coming from disaster relief agencies and categorize them appropriately to help in delivering the correct informations.
+
 ### File Descriptions
 ```
 - app
