@@ -76,7 +76,7 @@ def save_data(df, database_filename):
     """
     
     engine = sqla.create_engine(f'sqlite:///{database_filename}')
-    df.to_sql('disaster_messages_final', engine, index=False) # save to table
+    df.to_sql('disaster_messages_final', engine, index=False, if_exists='replace') # save to table
 
 def main():
     if len(sys.argv) == 4:
